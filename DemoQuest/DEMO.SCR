@@ -1,0 +1,35 @@
+; Adventure Creator demo game script file
+define GOTOSCREEN 0
+define MANDIES 3
+define OBJECT_INV 7     // remove object and add to inventory
+define ADDINV 8
+
+variable trackbits;
+// bit 0 - got trash?
+
+script 1 {
+  if (trackbits & 1) {
+    display "I think you've had enough of going through bins for one day."
+    return
+    }
+  if (player.y>125) {
+    display "That would mean climbing up the curb. You'll have to go back round."
+    return
+    }
+  if (trackbits # 1) {
+    player.score+=2
+    runcondition(ADDINV,2,1)
+    display "Holding your nose, you reach into the bin and pull out some trash."
+    trackbits|=1
+    }
+  }
+
+script 2 {
+  if (player.y<125) {
+    display "Doing that would mean jumping off the curb. Find another way round."
+    return
+    }
+  player.score+=3
+  runcondition(OBJECT_INV,0,3)
+  }
+
