@@ -1,0 +1,64 @@
+This lists the rooms numbers, name and what features are demonstrated in them.
+Please note how the divisions are ordered and follow the standard.
+
+---
+
+10 - The Lobby: animated bkgds, using text scripts to create a scene of characters walking and talking.
+INTRO - how to do an opening logo
+
+---
+
+100-124 series - menus, intros, and closeups
+
+100 - Title Screen:  how to do Start/load/quit options
+101 - how do to keypad / keycard
+
+102 - 124 - free
+
+---
+
+125 - 149 - free
+
+---
+
+150 - 174 series: original demo quest (anything outside factory)
+
+150 - free
+151 - First street: scrolling room, basic walkable areas, walkbehinds, hotspots
+152 - the futurstic city (unused for the moment)
+153 - Various street scenes: 
+154 - Street with key on ground: getting inv items from hotspots and objects
+155 - Street with Door: using inv on hotspot, making a simple door, conversation topics with NPC
+
+---
+
+175 - 199 series: media wing
+
+175 - Media Wing hallway #1
+
+176 - 180 - reserved for Relight's media wing plans
+
+181 - 199 - free
+
+---
+
+200 - 249 series - guis, customizations
+
+200 - GUI hall
+201 - 205 - reserved for GUI hall
+
+206 - SCI0 room
+207 - LEC room
+208 - AGI room
+209 - 249 - free
+
+---
+
+250 - 275 series - advanced scripting
+
+250 - Advanced hall
+251 - 254 - reserved for Advanced hall(s)
+255 - Arcade Hall
+256 - Racing Game Room: using script to make arcade driving simulation
+257 - Slot machine room
+260 - Looping room

@@ -1,0 +1,20 @@
+0-22: Demo 1 (ROOT DIR)
+23-26: CAN BE OVERWRITTEN (ROOT DIR)
+26-29: Demo 1 (ROOT DIR)  
+38-44: Demo 1 (ROOT DIR)
+45-52: for the edges of gui 3 (ROOT DIR) 
+53: bkgd for gui 7 ( /DEFAULTS)
+54-102: sprites for the old, squatty roger ( /ROGER)
+103: bkgd for gui 1 ( /DEFAULTS)
+104-108: objects for room 10 ( /ROOMOBJECT)
+109-140: Toadie sprites ( /TOADIE)
+141-180: Arcade driving room ( /ROAD) 
+181-190: slot machine sprites ( /SPYROS)
+191-207: looping room and SCI0 room ( /ROOMOBJECT)
+208-242: Lec sprites ( /SPYROS/LEC)
+243-257: Media wing hall #1 door sprites ( /MEDIA)
+258-268: Control panel sprites (/SPYROS/PANEL)
+269: blank mouse cursor (AGI room)
+CAN BE OVERWRITTEN:
+
+23-26: The old edges of gui 3

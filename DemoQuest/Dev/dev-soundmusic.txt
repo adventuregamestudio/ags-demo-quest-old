@@ -1,0 +1,19 @@
+
+
+SOUNDS
+1 - fanfare
+2 - bell (score sound)
+3 - swish
+4 - crash
+5 - drive-by sound
+
+MUSIC MIDI
+
+0 - Demo Quest's Space-questy theme
+1 - Driving tune
+2 - Baby elephant walk
+
+MUSIC MP3
+
+- lets only have a couple of these in the MUSIC ROOM to demonstrate
+- or this gets too big

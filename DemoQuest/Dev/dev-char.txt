@@ -1,0 +1,29 @@
+CHARACTERS (use character script name, not character descriptive name):
+
+0 - EGO - The main character.
+
+1 - BMAN - The guy who looks just like ego that stands outside the door.
+
+2 - ROGER - The tour guide for the AGS factory.
+
+3 - TOADIE - The guy in the blue suit.
+
+(all for room256.crm : advanced hall / arcade driving room)
+
+4 - PONE - A post.
+
+5 - PTWO - A post.
+
+6 - BIKE - An unmanned bike.
+
+7 - BIKEONE - "Opponent" / Traffic.
+
+8 - BIKETWO - "Opponent" / Traffic.
+
+9 - BIKETHREE - "Opponent" / Traffic.
+
+10 - BIKEFOUR - "Opponent" / Traffic.
+
+11 - BIKEFIVE - "Opponent" / Traffic.
+
+12 - LOOPY - no walking anim, palette only works with looping room
