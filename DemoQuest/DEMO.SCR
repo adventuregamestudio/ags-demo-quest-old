@@ -32,4 +32,27 @@ script 2 {
   player.score+=3
   runcondition(OBJECT_INV,0,3)
   }
+
+variable intro_state;
+
+// This script block is repeatedly called while the intro is playing
+gamestartup {
+  // Start of intro
+  if (intro_state==0) {
+    status_bar_off
+    show_picture 1
+    delay 500, intro_state
+    intro_state=1
+    }
+  // Player pressed a key, so skip intro
+  if (game.lastkey>0) {
+    intro_state=2
+    game.lastkey=0
+    }
+  // End of intro
+  if (intro_state==2) {
+    status_bar_on
+    start_game
+    }
+  }
 
