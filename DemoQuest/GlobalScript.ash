@@ -334,11 +334,11 @@ enum evt {
 
 #define W                               -23000
 
-#define X-Terms                         -24000
+#define XTerms                         -24000
 
-#define Y-Terms                         -25000
+#define YTerms                         -25000
 
-#define Z-Terms                         -26000
+#define ZTerms                         -26000
 
 
 //===================================================================
