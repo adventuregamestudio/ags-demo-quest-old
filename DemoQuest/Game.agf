@@ -3062,7 +3062,7 @@ bman: Ok then, what do you want?
 cris: Well, 728 points would do me fine.
 bman: What?! As if! Some people are so cheeky these days!
 cris: What about 10 points?
-  GiveScore(10);
+  //FIXME -- GiveScore(10);
 bman: Ok, done. Satisfied? Just promise to be nice to me.
 cris: I promise.
 cris: (Snigger, snigger)
