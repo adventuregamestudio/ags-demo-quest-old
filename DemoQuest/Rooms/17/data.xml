@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Room Version="1">
+  <BackgroundAnimationDelay>5</BackgroundAnimationDelay>
+  <BackgroundAnimationEnabled>True</BackgroundAnimationEnabled>
+  <BackgroundCount>1</BackgroundCount>
+  <BottomEdgeY>199</BottomEdgeY>
+  <ColorDepth>8</ColorDepth>
+  <Description xml:space="preserve">AGS Terminal</Description>
+  <FaceDirectionRatio>0</FaceDirectionRatio>
+  <GameID>1025800901</GameID>
+  <Height>200</Height>
+  <LeftEdgeX>2</LeftEdgeX>
+  <MaskResolution>1</MaskResolution>
+  <Number>17</Number>
+  <PlayerCharacterView>0</PlayerCharacterView>
+  <Properties />
+  <RightEdgeX>317</RightEdgeX>
+  <ShowPlayerCharacter>False</ShowPlayerCharacter>
+  <TopEdgeY>2</TopEdgeY>
+  <Width>320</Width>
+  <Interactions>
+    <Event Index="0" />
+    <Event Index="1" />
+    <Event Index="2" />
+    <Event Index="3" />
+    <Event Index="4" />
+    <Event Index="5">room_a</Event>
+    <Event Index="6">room_b</Event>
+    <Event Index="7" />
+    <Event Index="8" />
+    <Event Index="9" />
+  </Interactions>
+  <Objects>
+    <RoomObject>
+      <Baseline>-1</Baseline>
+      <BaselineOverridden>False</BaselineOverridden>
+      <BlendMode>Normal</BlendMode>
+      <Clickable>True</Clickable>
+      <Description xml:space="preserve">id card</Description>
+      <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>False</Enabled>
+      <Image>553</Image>
+      <Name>oCard</Name>
+      <Properties />
+      <StartX>196</StartX>
+      <StartY>179</StartY>
+      <UseRoomAreaLighting>False</UseRoomAreaLighting>
+      <UseRoomAreaScaling>False</UseRoomAreaScaling>
+      <Visible>False</Visible>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">object0_a</Event>
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+      </Interactions>
+    </RoomObject>
+    <RoomObject>
+      <Baseline>-1</Baseline>
+      <BaselineOverridden>False</BaselineOverridden>
+      <BlendMode>Normal</BlendMode>
+      <Clickable>True</Clickable>
+      <Description xml:space="preserve">led display</Description>
+      <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
+      <Image>543</Image>
+      <Name>oLed1</Name>
+      <Properties />
+      <StartX>229</StartX>
+      <StartY>68</StartY>
+      <UseRoomAreaLighting>False</UseRoomAreaLighting>
+      <UseRoomAreaScaling>False</UseRoomAreaScaling>
+      <Visible>True</Visible>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+      </Interactions>
+    </RoomObject>
+    <RoomObject>
+      <Baseline>-1</Baseline>
+      <BaselineOverridden>False</BaselineOverridden>
+      <BlendMode>Normal</BlendMode>
+      <Clickable>True</Clickable>
+      <Description xml:space="preserve">led display</Description>
+      <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
+      <Image>543</Image>
+      <Name>oLed10</Name>
+      <Properties />
+      <StartX>213</StartX>
+      <StartY>68</StartY>
+      <UseRoomAreaLighting>False</UseRoomAreaLighting>
+      <UseRoomAreaScaling>False</UseRoomAreaScaling>
+      <Visible>True</Visible>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+      </Interactions>
+    </RoomObject>
+    <RoomObject>
+      <Baseline>-1</Baseline>
+      <BaselineOverridden>False</BaselineOverridden>
+      <BlendMode>Normal</BlendMode>
+      <Clickable>True</Clickable>
+      <Description xml:space="preserve">led display</Description>
+      <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
+      <Image>543</Image>
+      <Name>oLed100</Name>
+      <Properties />
+      <StartX>197</StartX>
+      <StartY>68</StartY>
+      <UseRoomAreaLighting>False</UseRoomAreaLighting>
+      <UseRoomAreaScaling>False</UseRoomAreaScaling>
+      <Visible>True</Visible>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+      </Interactions>
+    </RoomObject>
+    <RoomObject>
+      <Baseline>-1</Baseline>
+      <BaselineOverridden>False</BaselineOverridden>
+      <BlendMode>Normal</BlendMode>
+      <Clickable>True</Clickable>
+      <Description xml:space="preserve">led display</Description>
+      <EffectiveBaseline>0</EffectiveBaseline>
+      <Enabled>True</Enabled>
+      <Image>556</Image>
+      <Name>oText</Name>
+      <Properties />
+      <StartX>79</StartX>
+      <StartY>68</StartY>
+      <UseRoomAreaLighting>False</UseRoomAreaLighting>
+      <UseRoomAreaScaling>False</UseRoomAreaScaling>
+      <Visible>True</Visible>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+      </Interactions>
+    </RoomObject>
+  </Objects>
+  <Hotspots>
+    <RoomHotspot>
+      <Description xml:space="preserve">NO HOTSPOT</Description>
+      <Name>hHotspot0</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton1</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot1_b</Event>
+        <Event Index="2">hotspot1_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton2</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot2_b</Event>
+        <Event Index="2">hotspot2_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton3</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot3_b</Event>
+        <Event Index="2">hotspot3_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton4</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot4_b</Event>
+        <Event Index="2">hotspot4_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton5</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot5_b</Event>
+        <Event Index="2">hotspot5_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton6</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot6_b</Event>
+        <Event Index="2">hotspot6_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton7</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot7_b</Event>
+        <Event Index="2">hotspot7_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton8</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot8_b</Event>
+        <Event Index="2">hotspot8_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton9</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot9_b</Event>
+        <Event Index="2">hotspot9_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButton0</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot10_b</Event>
+        <Event Index="2">hotspot10_a</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButtonClr</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot11_a</Event>
+        <Event Index="2">hotspot11_b</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>button</Description>
+      <Name>hButtonEnt</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot12_a</Event>
+        <Event Index="2">hotspot12_b</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">card slot</Description>
+      <Name>hCardSlot</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot13_a</Event>
+        <Event Index="2">hotspot13_b</Event>
+        <Event Index="3">hotspot13_c</Event>
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>terminal</Description>
+      <Name>hTerminal</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot14_a</Event>
+        <Event Index="2">hotspot14_b</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description>blackness</Description>
+      <Name>hBlackness</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1">hotspot15_a</Event>
+        <Event Index="2">hotspot15_b</Event>
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">HOTSPOT 16</Description>
+      <Name>hHotspot16</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">HOTSPOT 17</Description>
+      <Name>hHotspot17</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">HOTSPOT 18</Description>
+      <Name>hHotspot18</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">HOTSPOT 19</Description>
+      <Name>hHotspot19</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 20</Description>
+      <Name>hHotspot20</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 21</Description>
+      <Name>hHotspot21</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 22</Description>
+      <Name>hHotspot22</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 23</Description>
+      <Name>hHotspot23</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 24</Description>
+      <Name>hHotspot24</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 25</Description>
+      <Name>hHotspot25</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 26</Description>
+      <Name>hHotspot26</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 27</Description>
+      <Name>hHotspot27</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 28</Description>
+      <Name>hHotspot28</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 29</Description>
+      <Name>hHotspot29</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 30</Description>
+      <Name>hHotspot30</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 31</Description>
+      <Name>hHotspot31</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 32</Description>
+      <Name>hHotspot32</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 33</Description>
+      <Name>hHotspot33</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 34</Description>
+      <Name>hHotspot34</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 35</Description>
+      <Name>hHotspot35</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 36</Description>
+      <Name>hHotspot36</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 37</Description>
+      <Name>hHotspot37</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 38</Description>
+      <Name>hHotspot38</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 39</Description>
+      <Name>hHotspot39</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 40</Description>
+      <Name>hHotspot40</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 41</Description>
+      <Name>hHotspot41</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 42</Description>
+      <Name>hHotspot42</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 43</Description>
+      <Name>hHotspot43</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 44</Description>
+      <Name>hHotspot44</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 45</Description>
+      <Name>hHotspot45</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 46</Description>
+      <Name>hHotspot46</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 47</Description>
+      <Name>hHotspot47</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 48</Description>
+      <Name>hHotspot48</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+    <RoomHotspot>
+      <Description xml:space="preserve">Hotspot 49</Description>
+      <Name>hHotspot49</Name>
+      <Properties />
+      <WalkToPoint>0,0</WalkToPoint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+        <Event Index="3" />
+        <Event Index="4" />
+        <Event Index="5" />
+        <Event Index="6" />
+        <Event Index="7" />
+        <Event Index="8" />
+        <Event Index="9" />
+      </Interactions>
+    </RoomHotspot>
+  </Hotspots>
+  <WalkableAreas>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+    <RoomWalkableArea>
+      <AreaSpecificView>0</AreaSpecificView>
+      <FaceDirectionRatio>0</FaceDirectionRatio>
+      <MaxScalingLevel>100</MaxScalingLevel>
+      <MinScalingLevel>100</MinScalingLevel>
+      <ScalingLevel>100</ScalingLevel>
+      <UseContinuousScaling>False</UseContinuousScaling>
+    </RoomWalkableArea>
+  </WalkableAreas>
+  <WalkBehinds>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+    <RoomWalkBehind>
+      <Baseline>0</Baseline>
+    </RoomWalkBehind>
+  </WalkBehinds>
+  <Regions>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+    <RoomRegion>
+      <BlueTint>0</BlueTint>
+      <GreenTint>0</GreenTint>
+      <LightLevel>100</LightLevel>
+      <RedTint>0</RedTint>
+      <TintLuminance>100</TintLuminance>
+      <TintSaturation>50</TintSaturation>
+      <UseColourTint>False</UseColourTint>
+      <Interactions>
+        <Event Index="0" />
+        <Event Index="1" />
+        <Event Index="2" />
+      </Interactions>
+    </RoomRegion>
+  </Regions>
+</Room>
