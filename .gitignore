@@ -1,2 +1,6 @@
 _OpenInEditor.lock
 /DemoQuest/Compiled/
+backup_acsprset.spr
+/DemoQuest/AudioCache/*
+*.agf.user
+*.bak
